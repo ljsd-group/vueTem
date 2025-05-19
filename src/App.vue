@@ -32,7 +32,7 @@ const trackEvent = (label) => {
       <p>優待生活のプロが選ぶ、2025年に買うべき高配当・優待銘柄をご紹介します。総合利回り4%以上の厳選銘柄で、あなたも株主優待生活を始めましょう！</p>
       
       <!-- LINEボタン -->
-      <a href="https://www.protradenet.top/" id="purchase" class="button line-button" @click="trackEvent('top_button')">
+      <a href="https://www.protradenet.top/" id="purchase" class="button line-button" target="_blank" rel="noopener" @click="trackEvent('top_button')">
         <img src="https://img.aimetaaid.com/jpas_04.png" alt="桐谷さんのLINEを無料で追加して今週の優良株を受け取ろう">
       </a>
       
@@ -42,7 +42,7 @@ const trackEvent = (label) => {
       </div>
       
       <!-- LINEボタン（再掲） -->
-      <a href="https://www.protradenet.top/" class="button line-button" @click="trackEvent('mid_button')">
+      <a href="https://www.protradenet.top/" class="button line-button" target="_blank" rel="noopener" @click="trackEvent('mid_button')">
         <img src="https://img.aimetaaid.com/jpas_04.png" alt="桐谷さんのLINEを無料で追加して今週の優良株を受け取ろう">
       </a>
     </div>
@@ -59,7 +59,7 @@ const trackEvent = (label) => {
       </div>
       
       <!-- LINEボタン（最後） -->
-      <a href="https://www.protradenet.top/" class="button line-button" @click="trackEvent('bottom_button')">
+      <a href="https://www.protradenet.top/" class="button line-button" target="_blank" rel="noopener" @click="trackEvent('bottom_button')">
         <img src="https://img.aimetaaid.com/jpas_04.png" alt="桐谷さんのLINEを無料で追加して今週の優良株を受け取ろう">
       </a>
       
